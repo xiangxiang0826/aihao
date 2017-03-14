@@ -1,0 +1,1899 @@
+body {
+	font-size:12px;
+	font-family:"宋体",Verdana,Arial;
+	line-height:150%;
+	margin:0;
+	padding:0;
+	color:#626262
+}
+div {
+	margin:0 auto;
+	padding:0
+}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,p {
+	margin:0;
+	padding:0;
+	border:0;
+	list-style-type:none;
+	font-size:12px
+}
+.block {
+	width:980px;
+	height:auto;
+	overflow:hidden
+}
+.none {
+	display:none
+}
+.f_l {
+	float:left
+}
+.f_r {
+	float:right
+}
+.tl {
+	text-align:left
+}
+.tc {
+	text-align:center
+}
+.tr {
+	text-align:right
+}
+.tips {
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	padding:30px 0;
+	color:#f60
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+*html .clearfix {
+	height:1%
+}
+*+html .clearfix {
+	height:1%
+}
+.word {
+	word-break:break-all;
+	clear:both
+}
+.f1 {
+	color:#999
+}
+.f4_b {
+	color:#e44c20;
+	font-weight:bold
+}
+.market {
+	color:#595959;
+	text-decoration:line-through
+}
+.shop {
+	color:#e60000
+}
+a:link {
+	color:#626262;
+	text-decoration:none
+}
+a:visited {
+	color:#626262;
+	text-decoration:none
+}
+a:hover {
+	color:#f60;
+	text-decoration:none
+}
+a:action {
+	color:#626262;
+	text-decoration:none
+}
+.inputBorder {
+	border:1px solid #9e9e9e;
+	background-color:#fff
+}
+.inputBorder1 {
+	border:1px solid #9e9e9e;
+	background:#fff
+}
+.user_form {
+	border:1px solid #f90;
+	background:#ffffec
+}
+.bnt_num2 {
+	width:48px;
+	height:20px;
+	line-height:20px;
+	background:0;
+	border:0;
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat 0 -95px;
+	color:#742712;
+	text-decoration:none
+}
+.bnt_num4 {
+	width:74px;
+	height:20px;
+	line-height:20px;
+	background:0;
+	border:0;
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat 0 -119px;
+	color:#742712;
+	text-decoration:none
+}
+.bnt_num6 {
+	width:102px;
+	height:20px;
+	line-height:20px;
+	background:0;
+	border:0;
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat 0 -144px;
+	color:#742712;
+	text-decoration:none
+}
+.bnt_num8 {
+	width:131px;
+	height:20px;
+	line-height:20px;
+	background:0;
+	border:0;
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat 0 -168px;
+	color:#742712;
+	text-decoration:none
+}
+.bnt_num10 {
+	width:159px;
+	height:20px;
+	line-height:20px;
+	background:0;
+	border:0;
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat 0 -192px;
+	color:#742712;
+	text-decoration:none
+}
+#PageHeader {
+	width:1012px;
+	background-color:#fff;
+	overflow:hidden
+}
+#PageHeader .logo {
+	width:230px;
+	height:74px;
+	text-align:center;
+	float:left;
+	overflow:hidden;
+	_display:inline
+}
+#PageHeader .logo img {
+	position:relative;
+	top:35%
+}
+#PageHeader .topnav {
+	width:752px;
+	float:right;
+	_display:inline;
+	background:url(../images/navTopBg.gif)/*tpa=http://www.9taohao.com/themes/games/images/navTopBg.gif*/ no-repeat right bottom;
+	height:74px;
+	margin-right:30px
+}
+.TopNavList {
+	float:right;
+	margin-top:6px
+}
+.TopNavList li {
+	float:left;
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat 0 0;
+	margin-left:8px;
+	line-height:20px;
+	position:relative;
+	padding:0 8px
+}
+#ECS_MEMBERZONE {
+	clear:both;
+	padding-top:20px
+}
+#ECS_MEMBERZONE img {
+	position:relative;
+	top:5px
+}
+.TopNavList li span {
+	background:url(../images/navTopR.gif)/*tpa=http://www.9taohao.com/themes/games/images/navTopR.gif*/ no-repeat top right;
+	width:4px;
+	height:20px;
+	position:absolute;
+	top:0;
+	right:0
+}
+.HomeNav {
+	background:url(../images/navBg.gif)/*tpa=http://www.9taohao.com/themes/games/images/navBg.gif*/ no-repeat 0 0;
+	clear:both
+}
+.HomeNav .NavItem {
+	float:left;
+	height:28px;
+	width:645px;
+	overflow:hidden;
+	padding:25px 0 0 63px;
+	font-size:14px;
+	font-weight:bold
+}
+.HomeNav .NavItem a {
+	color:#fff
+}
+.HomeNav .NavCart {
+	float:right;
+	background:url(../images/cartLbg.gif)/*tpa=http://www.9taohao.com/themes/games/images/cartLbg.gif*/ no-repeat 0 0;
+	height:30px;
+	position:relative;
+	padding:23px 100px 0 30px
+}
+.HomeNav .NavCart a {
+	color:#fff
+}
+.HomeNav .NavCart span {
+	display:block;
+	width:96px;
+	height:30px;
+	background:url(../images/cartRbg.gif)/*tpa=http://www.9taohao.com/themes/games/images/cartRbg.gif*/ no-repeat 0 0;
+	position:absolute;
+	top:0;
+	right:0;
+	padding-top:23px;
+	overflow:hidden
+}
+.HomeNav .NavCart span a {
+	display:block;
+	text-indent:-99999px
+}
+#Foucs {
+	background:url(../images/foucsBg.gif)/*tpa=http://www.9taohao.com/themes/games/images/foucsBg.gif*/ no-repeat 0 0;
+	height:289px
+}
+#Foucs .searchBox {
+	padding:8px 20px
+}
+#W232 {
+	width:232px;
+	float:left;
+	text-align:right
+}
+#W522 {
+	width:522px;
+	float:left;
+	margin:3px 0 0 7px
+}
+#W522 .ad1 {
+	width:145px;
+	height:92px;
+	margin:7px 4px 4px 4px;
+	float:left;
+	overflow:hidden;
+	_display:inline
+}
+#W522 .textList {
+	border:1px solid #ffcdcd;
+	margin:7px 4px 4px 0;
+	width:362px;
+	float:right;
+	overflow:hidden;
+	_display:inline;
+	height:90px
+}
+.textTagTit {
+	width:84px;
+	float:left
+}
+.textTagTit h2 {
+	width:83px;
+	height:23px;
+	line-height:23px;
+	background:url(../images/tagBg.gif)/*tpa=http://www.9taohao.com/themes/games/images/tagBg.gif*/ no-repeat 0 0;
+	color:#ed3738;
+	text-align:center;
+	font-weight:100
+}
+.textTagTit .h2bg {
+	background:url(../images/tagBg.gif)/*tpa=http://www.9taohao.com/themes/games/images/tagBg.gif*/ no-repeat 0 -23px;
+	border-right:1px solid #ffcdcd
+}
+.textCenter {
+	float:right;
+	width:273px;
+	padding:5px 0;
+	line-height:21px
+}
+#W212 {
+	width:195px;
+	float:right;
+	padding:50px 0 0 17px
+}
+#W212 img {
+	_margin-top:6px
+}
+#AreaLeft {
+	width:760px;
+	float:left;
+	margin:5px 10px 0 0
+}
+#AreaLeft .Col {
+	margin-top:10px
+}
+#AreaLeft .Col .ColL {
+	float:left;
+	width:203px;
+	margin-right:10px
+}
+#AreaLeft .Col .colR {
+	float:right;
+	width:547px
+}
+#AreaRight {
+	width:210px;
+	float:right;
+	margin-top:5px
+}
+#ColLeft {
+	float:left;
+	width:203px;
+	margin:10px 10px 0 0
+}
+#ColRight {
+	float:right;
+	width:767px;
+	margin-top:10px
+}
+.GoodMod {
+	width:400px;
+	height:170px;
+	overflow:hidden;
+	float:left;
+	_display:inline;
+	text-align:center
+}
+.GoodMod .imgBox {
+	width:144px;
+	height:84px;
+	border:1px solid #e3e3e3;
+	padding:2px;
+	overflow:hidden;
+	margin-bottom:5px
+}
+.GoodMod p,.GoodMod p a {
+	color:#595959;
+	font-size:14px;
+	font-weight:bold
+}
+.modTit {
+	height:51px;
+	background:url(../images/bg_modTit.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_modTit.gif*/ no-repeat top right;
+	clear:both;
+}
+.modTit span {
+	float:left;
+	height:51px;
+	width:175px;
+	background:url(../images/bg_name.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_name.gif*/ no-repeat 0 0
+}
+.modTit span.new {
+	float:left;
+	height:51px;
+	width:175px;
+	background:url(../images/bg_name.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_name.gif*/ no-repeat 0 -56px
+}
+.modTit span.hot {
+	float:left;
+	height:51px;
+	width:175px;
+	background:url(../images/bg_name.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_name.gif*/ no-repeat 0 -112px
+}
+.modTit span.group {
+	float:left;
+	height:51px;
+	width:175px;
+	background:url(../images/bg_name.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_name.gif*/ no-repeat 0 -167px
+}
+.modTit span.auction {
+	float:left;
+	height:51px;
+	width:175px;
+	background:url(../images/bg_name.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_name.gif*/ no-repeat 0 -223px
+}
+.modTit span.goodsList {
+	float:left;
+	height:51px;
+	width:175px;
+	background:url(../images/bg_name.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_name.gif*/ no-repeat 0 -279px
+}
+.modTit .more {
+	float:right;
+	padding:17px 50px 0 0
+}
+.modTit .modTit_L {
+	float:left;
+	height:51px;
+	background:url(../images/bg_mod1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_mod1.gif*/ no-repeat 0 0;
+	padding-left:15px
+}
+.modTit .modTit_L p {
+	height:51px;
+	line-height:51px;
+	padding-right:102px;
+	font-family:"����",Arial Black,sans-serif;
+	color:#FFF;
+	font-size:18px;
+	font-weight:200;
+	background:url(../images/bg_mod.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_mod.gif*/ no-repeat top right;
+	display:inline-block;
+	display:-moz-inline-stack;
+	*display:inline;
+	zoom:1
+}
+.modBox {
+	background:url(../images/bg_ModBorder_left.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_ModBorder_left.gif*/ no-repeat left bottom;
+	margin-bottom:10px
+}
+.modBox1 {
+	background:url(../images/bg_ModBorder_right.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_ModBorder_right.gif*/ no-repeat right bottom
+}
+.modTow {
+	background:url(../images/bg_ModBorder1_left.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_ModBorder1_left.gif*/ no-repeat left bottom;
+	margin-bottom:10px
+}
+.modTow1 {
+	background:url(../images/bg_ModBorder1_right.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_ModBorder1_right.gif*/ no-repeat right bottom;
+	height:auto
+}
+.modTow1 h1 {
+	height:26px;
+	background:url(../images/bg_ModBorder1_left.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_ModBorder1_left.gif*/ no-repeat left top
+}
+.modTow1 h1 p {
+	display:block;
+	background:url(../images/bg_ModBorder1_right.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_ModBorder1_right.gif*/ no-repeat right top
+}
+.modTow1 h1 p span {
+	display:block;
+	border-bottom:1px solid #eee;
+	line-height:26px;
+	margin:0 10px;
+	position:relative
+}
+.modTow1 .modContent {
+	margin:5px 10px 10px 10px
+}
+.modThree {
+	background:#fdf5ea;
+	padding:6px;
+	position:relative;
+	margin-bottom:8px
+}
+.modThree span.ltop {
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat -216px -102px;
+	position:absolute;
+	left:0;
+	top:0
+}
+.modThree span.lbottom {
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat -216px -118px;
+	position:absolute;
+	left:0;
+	bottom:0
+}
+.modThree span.rtop {
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat -232px -102px;
+	position:absolute;
+	right:0;
+	top:0
+}
+.modThree span.rbottom {
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat -232px -118px;
+	position:absolute;
+	right:0;
+	bottom:0
+}
+.w755 {
+	_width:755px
+}
+.w968 {
+	_width:968px
+}
+.modThreeBox {
+	border:1px solid #f6e0ad;
+	background-color:#fff;
+	padding:10px
+}
+.bestTit {
+	background:url(../images/bg_best.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_best.gif*/ no-repeat 0 0;
+	height:37px;
+	text-align:right;
+	padding:17px 60px 0 0
+}
+.bestCenter {
+	background:url(../images/bg_best_1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_best_1.gif*/ repeat-y left top;
+	padding:0 0 0 35px
+}
+.bestCenter .GoodMod {
+	margin:0 10px 8px 10px
+}
+.bestBot {
+	height:10px;
+	line-height:10px;
+	overflow:hidden;
+	background:url(../images/bg_best_2.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_best_2.gif*/ no-repeat 0 0
+}
+.promotion {
+	padding:0 0 5px 20px
+}
+.promotion .GoodMod {
+	margin:5px 8px 0 8px
+}
+.CateTit {
+	width:203px;
+	height:55px;
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat 0 -23px
+}
+.CateBot {
+	width:203px;
+	height:8px;
+	line-height:8px;
+	overflow:hidden;
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat 0 -80px;
+	margin-bottom:10px
+}
+.CateCentent {
+	width:203px;
+	background:url(../images/bg_category.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_category.gif*/ repeat-y top left
+}
+.CateCentent .YiTit {
+	width:40px;
+	float:left;
+	text-align:center
+}
+.CateCentent .YiTit h2 {
+	background:url(../images/cateDot.gif)/*tpa=http://www.9taohao.com/themes/games/images/cateDot.gif*/ no-repeat right center;
+	font-weight:100;
+	border-bottom:1px solid #e4e4e4;
+	padding:10px 5px;
+	background-color:#fff;
+	border-left:1px solid #e4e4e4
+}
+.CateCentent .YiTit .h2bg {
+	background:0;
+	background-color:#fdf5ea;
+	border-right:1px solid #e4e4e4
+}
+.CateCentent .Erji {
+	width:143px;
+	float:right;
+	padding:10px
+}
+.links img {
+	width:80px;
+	height:31px;
+	border:1px solid #ccc;
+	margin:2px
+}
+.brands {
+	text-align:center
+}
+.brands .bradnsLogo {
+	width:80px;
+	height:31px;
+	border:1px solid #ccc;
+	margin:2px 5px;
+	overflow:hidden;
+	_display:inline;
+	float:left
+}
+.more1 {
+	position:absolute;
+	right:0;
+	_right:10px;
+	top:5px;
+	*top:-2px
+}
+.history ul {
+	margin-bottom:5px
+}
+.history li {
+	float:left;
+	font-size:14px;
+	text-align:left
+}
+.history li.goodsimg {
+	margin-right:6px
+}
+.history li.goodsimg img {
+	width:45px;
+	height:45px;
+	border:1px solid #ccc;
+	display:block
+}
+#clear_history {
+	text-align:right
+}
+#clear_history a {
+	cursor:pointer
+}
+.ur {
+	background:url(../images/bg_ur.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_ur.gif*/ no-repeat top right;
+	margin-bottom:10px
+}
+.ur_1 {
+	height:39px;
+	line-height:39px;
+	background:url(../images/bg_ur1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_ur1.gif*/ no-repeat top left;
+	padding-left:10px
+}
+.invoice {
+	border-bottom:1px dashed #ebebeb;
+	margin-bottom:5px;
+	padding-bottom:5px
+}
+#ECS_ORDER_QUERY form,.invoice form {
+	display:inline
+}
+.help {
+	background:url(../images/bg_help.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_help.gif*/ no-repeat right bottom
+}
+#GoodSearchBox {
+	background:url(../images/goods_foucsBg.gif)/*tpa=http://www.9taohao.com/themes/games/images/goods_foucsBg.gif*/ no-repeat 0 0;
+	height:41px
+}
+#GoodSearchBox .searchBox {
+	padding:4px 20px
+}
+.goodsTop {
+	width:767px;
+	height:14px;
+	background:url(../images/bg_goodsTop.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_goodsTop.gif*/ no-repeat
+}
+.goodsBot {
+	width:767px;
+	height:14px;
+	background:url(../images/bg_goodsBot.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_goodsBot.gif*/ no-repeat;
+	margin-bottom:10px
+}
+.goodsCenter {
+	width:765px;
+	border-left:1px solid #f7e4b7;
+	border-right:1px solid #f7e4b7;
+	background:#fdf5ea
+}
+.goodsCenter h1 {
+	font-size:18px;
+	font-family:"����";
+	color:#333;
+	text-align:left;
+	padding:0 10px;
+	position:relative
+}
+.goodsCenter h1 p {
+	position:absolute;
+	top:0;
+	right:10px
+}
+.goodInfoBox {
+	border:1px solid #f6e0ad;
+	background:#fff;
+	margin:8px 4px 0 4px
+}
+.goodInfoBox .goodImg {
+	width:330px;
+	float:left;
+	text-align:center;
+	padding-top:10px
+}
+.goodInfoBox .goodText {
+	float:right;
+	width:400px;
+	padding:10px
+}
+.goodInfoBox .goodText form {
+	font-size:15px;
+	color:#333;
+	font-family:Verdana,Arial,Helvetica,sans-serif,MingLiU;
+	line-height:23px
+}
+.marketBox {
+	background:#fff9f7;
+	padding:10px;
+	border-top:1px dashed #d5d5d5;
+	border-bottom:1px dashed #d5d5d5;
+	margin:8px 0
+}
+.marketBox span {
+	font-weight:bold
+}
+.goodsCenter .action {
+	text-align:center;
+	padding-top:14px
+}
+.fittings .GoodMod {
+	margin-left:15px
+}
+.tagTitle {
+	height:48px;
+	background:url(../images/bg_tagbg.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_tagbg.gif*/ no-repeat;
+	padding:0 20px 0 35px
+}
+.tagTitle h2 {
+	background:url(../images/bg_tag3.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_tag3.gif*/ no-repeat 0 0;
+	float:left;
+	_display:inline;
+	margin-right:5px;
+	height:48px;
+	line-height:48px;
+	position:relative;
+	padding:0 10px 0 20px
+}
+.tagTitle h2 span {
+	display:block;
+	width:5px;
+	height:48px;
+	overflow:hidden
+}
+.tagTitle h2 .left {
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat -176px -101px;
+	position:absolute;
+	left:0;
+	top:0
+}
+.tagTitle h2 .right {
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat -184px -101px;
+	position:absolute;
+	top:0;
+	right:0
+}
+.tagTitle .h2bg {
+	background:0;
+	font-weight:100
+}
+.tagTitle .h2bg span {
+	display:none
+}
+.tagTitle h2 .package {
+	width:19px;
+	height:23px;
+	background:url(../images/package.gif)/*tpa=http://www.9taohao.com/themes/games/images/package.gif*/ no-repeat 0 0;
+	position:absolute;
+	left:45px;
+	top:-5px
+}
+.tagContent {
+	background:url(../images/bg_tagbg2.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_tagbg2.gif*/ repeat-y 0 0;
+	padding:5px 20px
+}
+.tagBot {
+	height:14px;
+	background:url(../images/bg_tagbg1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_tagbg1.gif*/ no-repeat;
+	margin-bottom:10px
+}
+#goods_v .GoodMod {
+	margin:0 12px
+}
+.comments {
+	padding:0 10px
+}
+.comments h2 {
+	background:0
+}
+.commentList {
+	background:url(../images/commentListBg.gif)/*tpa=http://www.9taohao.com/themes/games/images/commentListBg.gif*/ repeat-x 0 0;
+	margin-top:30px;
+	padding-top:20px
+}
+.commentList ul {
+	margin-bottom:10px
+}
+.commentList li {
+	border-bottom:1px dashed #ccc;
+	position:relative;
+	padding:5px 0
+}
+.commentList li img {
+	position:absolute;
+	top:5px;
+	right:0
+}
+.re_content {
+	background:#fffaf5;
+	border:1px solid #faecde;
+	padding:8px;
+	margin:8px
+}
+.pagebar {
+	padding:12px 0;
+	text-align:right
+}
+.pagebar form {
+	margin:10px auto;
+	text-align:center
+}
+.pagebar .page_now {
+	color:#fff;
+	font-weight:bold;
+	padding:4px 6px;
+	background:#ac0005
+}
+.pagebar a {
+	border:1px solid #ccc;
+	padding:3px 5px
+}
+.activity {
+	padding-bottom:15px
+}
+.next {
+	padding:8px;
+	margin-top:15px;
+	text-align:left;
+	border-top:1px solid #ccc
+}
+.author {
+	margin-bottom:15px;
+	color:#9e9c9c;
+	text-align:center
+}
+.article h1 {
+	font-family:"����";
+	font-size:18px;
+	text-align:center;
+	line-height:22px;
+	padding-bottom:10px;
+	font-weight:100;
+	border-bottom:1px solid #ccc;
+	margin-bottom:8px
+}
+.articleList {
+	padding:10px
+}
+.auctionList {
+	padding:10px
+}
+.auctionList ul {
+	border-bottom:1px solid #ebebeb;
+	margin-bottom:10px;
+	padding-bottom:8px
+}
+.auctionList ul.noborder {
+	border:0
+}
+.auctionList li {
+	float:left
+}
+.auctionList li.goodimg {
+	width:200px;
+	height:150px;
+	text-align:center;
+	margin-right:10px;
+	overflow:hidden
+}
+.auctionList li.goodimg img {
+	border:1px solid #dedede;
+	padding:10px
+}
+.auctionList li.w500,.auctionList li.w500 form {
+	width:500px;
+	font-size:14px;
+	line-height:22px
+}
+.flowh3 {
+	font-family:"����",Arial Black,sans-serif;
+	color:#d83c19;
+	font-size:18px;
+	font-weight:200;
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat 0 -232px;
+	padding-left:18px;
+	margin-bottom:8px
+}
+.flowFittings .GoodMod {
+	height:200px;
+	overflow:hidden;
+	margin:0 10px
+}
+.orderSuccess {
+	padding:20px
+}
+.orderSuccess p {
+	font-size:14px
+}
+.orderSuccess p a {
+	color:#005ea7;
+	text-decoration:underline
+}
+.order_sn {
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat 0 -305px;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 8px 20px 40px;
+	text-align:left;
+	margin:10px 0 20px 0
+}
+.shipping_name {
+	border:1px solid #aacded;
+	border-top:2px solid #aacded;
+	background:#ebf4fb;
+	padding:10px;
+	margin-bottom:10px;
+	line-height:24px
+}
+.stepBox {
+	width:970px;
+	margin-top:10px
+}
+.step_login {
+	width:460px;
+	height:225px;
+	border:1px solid #d9d9d9;
+	padding:10px;
+	margin-bottom:8px
+}
+.step_login h4 {
+	height:32px;
+	line-height:30px;
+	background:url(../images/bg_login.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_login.gif*/ no-repeat 0 0;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	padding:0 10px;
+	text-align:left;
+	margin-bottom:10px
+}
+.step_login .h4bg {
+	background:url(../images/bg_login.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg_login.gif*/ no-repeat 0 -40px
+}
+.message {
+	width:968px;
+	margin:10px auto
+}
+.msgContent {
+	padding:10px
+}
+.msgList {
+	border-bottom:1px dashed #ccc;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	margin-top:10px;
+	clear:both
+}
+.re_msg_content {
+	margin:10px;
+	background:#fbf5ef;
+	padding:8px;
+	border:1px solid #fcf1e5
+}
+#brandList {
+	margin-left:5px;
+	*margin-left:15px
+}
+#brandList li {
+	width:160px;
+	min-height:180px;
+	border:1px solid #f6e0ad;
+	display:-moz-inline-stack;
+	display:inline-block;
+	vertical-align:top;
+	margin:5px 10px;
+	zoom:1;
+	*display:inline;
+	_height:180px;
+	text-align:center
+}
+#brandList li h4 {
+	font-size:14px;
+	background:#fdf5ea;
+	line-height:23px;
+	margin:1px 1px 8px 1px;
+	padding:0 10px
+}
+#brandList li h4 .size {
+	font-size:12px;
+	font-weight:100
+}
+#brandList li .brandLogoBox {
+	width:150px;
+	margin:0 auto 8px auto;
+	overflow:hidden
+}
+#brandList li p {
+	text-align:left;
+	padding:0 5px;
+	text-indent:20px;
+	overflow:hidden;
+	margin-bottom:5px
+}
+.user_menu {
+	margin-left:15px
+}
+.user_menu li {
+	background:url(../images/bg-1.gif)/*tpa=http://www.9taohao.com/themes/games/images/bg.gif*/ no-repeat -291px -28px;
+	padding:0 0 3px 20px;
+	*padding:0 0 3px 20px;
+	font-size:14px;
+	text-align:left
+}
+.us_notice {
+	background:#fdf5ea;
+	border:1px solid #feed8a;
+	padding:10px;
+	margin:10px auto
+}
+.w350 {
+	width:350px
+}
+.w350 span {
+	display:inline
+}
+.orderSpan span {
+	display:inline
+}
+.goodsShow .GoodMod {
+	margin:5px 0 5px 30px;
+	height:30px;
+	overflow:hidden
+}
+.goodsShow .goodsList {
+	margin-bottom:10px
+}
+.goodsShow .goodsList ul {
+	padding:10px
+}
+.goodsShow .goodsList li {
+	float:left;
+	margin:10px;
+	_display:inline
+}
+.goodsShow .goodsList li.action {
+	float:right;
+	margin-right:15px
+}
+.goodsShow .goodsList li.goodsName {
+	width:320px
+}
+#bgcolor {
+	border-bottom:1px dashed #ccc
+}
+.screeBox {
+	margin-bottom:6px;
+	font-size:13px
+}
+.screeBox span {
+	background:#fb8502;
+	padding:3px 5px;
+	color:#fff
+}
+.close {
+	border:2px solid #fe8802;
+	float:left;
+	background:#fffae7;
+	margin-top:8px;
+	padding:20px 8px 10px 10px;
+	width:265px;
+	position:relative;
+	display:none
+}
+.close a {
+	text-decoration:underline
+}
+.close a:hover {
+	text-decoration:none
+}
+.close span {
+	display:block;
+	width:14px;
+	height:14px;
+	overflow:hidden;
+	background:url(../images/close.gif)/*tpa=http://www.9taohao.com/themes/games/images/close.gif*/ no-repeat 0 0;
+	position:absolute;
+	top:3px;
+	right:5px;
+	cursor:pointer
+}
+#compareBox {
+	width:128px;
+	background:url(../images/compareBg.gif)/*tpa=http://www.9taohao.com/themes/games/images/compareBg.gif*/ no-repeat top center;
+	background-color:#edf8ff;
+	padding:35px 0 8px 0;
+	border:1px solid #c5e4ff;
+	position:absolute;
+	right:1px;
+	top:200px
+}
+#compareBox input {
+	width:52px;
+	height:13px;
+	border:0;
+	background:url(../images/compareSub.gif)/*tpa=http://www.9taohao.com/themes/games/images/compareSub.gif*/ no-repeat
+}
+#compareList {
+	margin:0 0 8px 0;
+	padding:0;
+	width:120px;
+	background:#fff;
+	border:1px solid #d6ecff
+}
+#compareList li {
+	color:#333;
+	text-align:left;
+	background:#fff;
+	padding:3px 5px;
+	margin:3px 0
+}
+#compareList li img {
+	float:right;
+	padding-top:4px
+}
+.messageli {
+	list-style-type:none;
+	padding:5px;
+	color:red
+}
+.messagediv {
+	font-size:12px;
+	position:absolute;
+	border:1px solid #ffd700;
+	text-align:center;
+	padding:5px;
+	background-color:#fffacd;
+	filter:alpha(opacity=50);
+	-moz-opacity:.7;
+	opacity:.7
+}
+.point li {
+	float:left;
+	width:300px
+}
+.MagicZoomBigImageCont {
+	border:1px solid #f6e0ad
+}
+.MagicZoomHeader {
+	color:#333;
+	background:#fdf5ea;
+	text-align:center!important;
+	*margin-top:-3px
+}
+.MagicZoomPup {
+	border:1px solid #aaa;
+	background:#fff
+}
+.MagicZoomLoading {
+	text-align:center;
+	background:#fff;
+	color:#444;
+	border:1px solid #ccc;
+	opacity:.8;
+	padding:3px 3px 3px 3px!important;
+	display:none
+}
+.MagicZoomLoading img {
+	padding-top:3px!important
+}
+
+
+
+
+/* MISC */
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+img{vertical-align:middle;}
+
+/* LAYOUT */
+#urhere,
+#top .inner,
+#footer .inner,
+#header,
+#nav ul,
+#main{
+	width:960px;margin:0 auto;
+}
+#left{
+	float:left;
+	width:230px;
+}
+#right{
+	float:right;
+	width:720px;
+}
+#urhere{
+	margin-bottom:10px;
+	background:url(../images/urhere.png)/*tpa=http://www.9taohao.com/themes/games/images/urhere.png*/ no-repeat 0 50%;
+	text-indent:20px;
+}
+
+/* BOX */
+.box{
+	margin-bottom:10px;
+}
+.box h4{
+	font-size:14px;
+	color:#333;
+	line-height:2em;
+	margin:0 0 .5em;
+}
+.box h4 span{color:#900}
+.box h5{
+	border-bottom:1px dashed #ccc;
+	font-weight:normal;
+	font-size:12px;
+	padding:.2em 0;
+	margin:.2em 0;
+	clear:both;
+}
+.box h5.yd{background:url(../images/icon_yd.png)/*tpa=http://www.9taohao.com/themes/games/images/icon_yd.png*/ no-repeat 0 50%;line-height:32px;padding-left:36px}
+.box h5.lt{background:url(../images/icon_lt.png)/*tpa=http://www.9taohao.com/themes/games/images/icon_lt.png*/ no-repeat 0 50%;line-height:32px;padding-left:36px}
+.box h5.dx{background:url(../images/icon_dx.png)/*tpa=http://www.9taohao.com/themes/games/images/icon_dx.png*/ no-repeat 0 50%;line-height:32px;padding-left:36px}
+.box h5.d400{background:url(../images/icon_400.png)/*tpa=http://www.9taohao.com/themes/games/images/icon_400.png*/ no-repeat 0 50%;line-height:32px;padding-left:36px}
+.box h5.fw{background:url(../images/icon_fw.png)/*tpa=http://www.9taohao.com/themes/games/images/icon_fw.png*/ no-repeat 0 50%;line-height:32px;padding-left:36px}
+
+#left .box,
+#right .right_r .box{
+	border:1px solid #ccc;
+	background:url(../images/box_bg.png)/*tpa=http://www.9taohao.com/themes/games/images/box_bg.png*/ repeat-x;
+	width: 210px;
+	padding:0 9px 10px;
+	line-height: 2em;
+}
+
+.jiansuo ul{overflow:auto;padding-left:20px;zoom:1}
+.jiansuo ul li{float:left;margin-right:0.6em;}
+.jiansuo h5{background:url(../images/icon_0.png)/*tpa=http://www.9taohao.com/themes/games/images/icon_0.png*/ no-repeat 0 50%;padding-left:20px}
+
+.daohang ul{
+	overflow:auto;
+	margin-left: 36px;
+}
+
+.daohang ul li{
+	float:left;
+	width:50%;
+}
+.daohang ul li a{
+	color:#666;
+}
+.daohang ul li a:hover{
+	color:#C00;
+}
+
+#left .zixun  {line-height: 1.6em}
+.zixun dt {
+	background:url(../images/icon_q.png)/*tpa=http://www.9taohao.com/themes/games/images/icon_q.png*/ no-repeat 0 2px;
+	padding-left: 22px;
+	margin: 1em 0 .5em;
+	word-break: break-all;
+}
+.zixun dd {
+	background:url(../images/icon_a.png)/*tpa=http://www.9taohao.com/themes/games/images/icon_a.png*/ no-repeat 0 2px;
+	padding: 0 0 1em 22px;
+	color:#F60;
+	border-bottom:1px dashed #ccc;
+	margin: .5em 0 1em;
+	word-break: break-all;
+}
+
+
+.quick-search{
+	border:1px solid #900;
+}
+.quick-search .inner{
+	border:1px solid #D80000;
+	background:#b70000;
+	padding:2px;
+}
+.quick-search h3{
+	background:url(../images/icon_arrow.png)/*tpa=http://www.9taohao.com/themes/games/images/icon_arrow.png*/ no-repeat;
+	color:#fff;
+	padding:0 0 0 22px;
+	margin:0;
+	line-height:16px;
+}
+.quick-search .cnt{
+	border:1px solid #990101;
+	background:#fff;
+	margin-top:5px;
+	padding: 1em;
+	color:#F60;
+	font-weight:bold;
+}
+.quick-search .cnt p{
+	line-height:2em;
+}
+.quick-search .cnt a{
+	font-weight:normal;
+}
+
+.list-header{
+	border-bottom:2px solid #B70000;
+	position:relative;
+	height:2em;
+}
+.list-header h3{
+	color:#B70000;
+	font-size:16px;
+	float:left;
+}
+.list-header ul{
+	position:absolute;
+	bottom:0;
+	left:8em;
+	line-height:2.2em;
+}
+.list-header li{
+	float:left;
+	margin-right:1em;
+	padding: 0 .5em;
+	cursor:pointer;
+}
+.list-header li.hover{
+	background:#b70000;
+	color:#fff;
+}
+.list-header a.more{
+	position:absolute;
+	top:2px;
+	right:0;
+	background:url(../images/more.png)/*tpa=http://www.9taohao.com/themes/games/images/more.png*/ no-repeat 100% 50%;
+	padding-right:8px;
+	color:#999;
+}
+.list-header a.more:hover{
+	color:#C00;
+}
+.list-content .head{
+	background:#eee;
+	color:#666;
+	overflow:hidden;
+	margin-bottom:.5em;
+	_zoom:1
+}
+.head p{float:left;width:50%;}
+.head span{float:left;text-align:center;line-height:2em;}
+.l-name{width:50%;}
+.l-price{width:31%;_width:29%;}
+.l-buy{width:19%;}
+
+.list-number{overflow:hidden;text-align:center;}
+.list-number li{float:left;width:50%;margin-bottom:.5em;}
+.list-number .l-name,
+.list-number .l-author,
+.list-number .l-price{
+	font-family:arial;
+	font-size:16px;
+	color:#666;
+	vertical-align:middle;
+}
+.list-number span font,
+.list-number span a,
+.list-number span img{
+	vertical-align:middle;
+}
+.list-number span a{
+	_font-size:0;
+	_vertical-align:text-top;
+}
+.list-number span img{
+	_padding-top:4px;
+}
+.list-number .l-price{font-size:14px;}
+.list-number .l-name font{
+	font-size:18px!important;
+}
+/* TOP */
+#top{
+	background: url(../images/top_bg.png)/*tpa=http://www.9taohao.com/themes/games/images/top_bg.png*/ repeat-x;
+	border-bottom: 1px solid #ccc;
+	height:30px;
+	line-height: 30px;
+}
+#top .inner {
+	overflow:auto;
+}
+#top .fr span{
+	background: url(../images/top_split.png)/*tpa=http://www.9taohao.com/themes/games/images/top_split.png*/ no-repeat 100% 50%;
+	padding: 0 .6em;
+	float:left
+}
+#top .fr span:last-child{
+	background: none;
+	padding: 0 0 0 .6em;
+}
+
+/* HEADER */
+#header{
+	height: 56px;
+	padding: 20px 0;
+	position:relative;
+	border-top:1px solid #EFEFEF;
+	position:relative;
+	z-index:2;
+}
+#header .tel{
+	position:absolute;
+	right:10px;
+	top:25px;
+}
+#logo{
+	float:left;
+	margin-right:10px;
+}
+#searchForm{
+	position:absolute;
+	left:270px;
+	top:30px;
+	background:#EFEFEF;
+	height:36px;
+	width:440px;
+	padding:2px;
+}
+#searchForm .cat {
+	overflow:hidden;
+	border: 1px solid #ccc;
+	height:34px;
+	width:76px;
+	background: #F5F5F5 url(../images/dropdown_bg.png)/*tpa=http://www.9taohao.com/themes/games/images/dropdown_bg.png*/ repeat-x;
+	position:relative;
+}
+#searchForm .cat span {
+	background: transparent url(../images/dropdown.png)/*tpa=http://www.9taohao.com/themes/games/images/dropdown.png*/ no-repeat 89% 50%;
+	width:76px;
+	height:34px;
+	line-height:34px;
+	text-indent: 10px;
+	+text-indent: 5px;
+	+background-position:84% 50%;
+	display:inline-block;
+}
+#searchForm .cat select {
+	width:78px;
+	height:34px;
+	position:absolute;
+	top:0;
+	left:-1px;
+	opacity:0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter:alpha(opacity=0);
+	_top:7px;
+}
+#searchForm #keyword {
+	background: #fff url(../images/input_bg.png)/*tpa=http://www.9taohao.com/themes/games/images/input_bg.png*/ repeat-x 0 0;
+	border: 1px solid #ccc;
+	height:34px;
+	line-height:34px\9;
+	width:241px;
+	padding: 0 5px;
+	margin-left:-1px;
+	font-size:14px;
+}
+#searchForm #keyword:focus { outline:none}
+#searchForm #search-btn {
+	border: 1px solid #900;
+	height:34px;
+	width:109px;
+	margin-left:-1px;
+	_position:absolute;
+	_right:2px;
+	_top:2px;
+}
+/* NAV */
+#nav{
+	height:40px;
+	line-height:40px;
+	background:url(../images/nav.png)/*tpa=http://www.9taohao.com/themes/games/images/nav.png*/ repeat-x;
+	margin-bottom:10px;
+	position:relative;
+	z-index:1;
+}
+#nav .inner{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+	z-index:1;
+}
+#nav ul{
+	overflow:hidden;
+}
+#nav li{
+	float:left;
+	background:url(../images/nav_split.png)/*tpa=http://www.9taohao.com/themes/games/images/nav_split.png*/ no-repeat 100% 50%;
+	padding-right:3px;
+}
+#nav a{
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	display:block;
+}
+#nav a span{
+	padding: 0 1em;
+	display:block;
+	min-width:4em;
+	text-align:center;
+	cursor:pointer;
+}
+#nav a:hover{
+	color:#FFF100
+}
+#nav .current a{
+	background:url(../images/nav.png)/*tpa=http://www.9taohao.com/themes/games/images/nav.png*/ no-repeat 0% 50%;
+	color:#900;
+}
+#nav .current a span{
+	background:url(../images/nav.png)/*tpa=http://www.9taohao.com/themes/games/images/nav.png*/ no-repeat 100% 100%;
+}
+#nav .business{
+	background:url(../images/btn_business.png)/*tpa=http://www.9taohao.com/themes/games/images/btn_business.png*/ no-repeat;
+	width:98px;
+	height:32px;
+	position:absolute;
+	right:0;
+	top:4px;
+	line-height:10em;
+	overflow:hidden;
+}
+
+/* FOOTER */
+#footer {
+	clear:both;
+	border-top:#B70000 1px solid;
+	background:#F2F2F2 url(../images/footer_bg.png)/*tpa=http://www.9taohao.com/themes/games/images/footer_bg.png*/ repeat-x;
+	padding:30px 0;
+}
+#footer .services{
+	background:url(../images/btm_bg.png)/*tpa=http://www.9taohao.com/themes/games/images/btm_bg.png*/ no-repeat 50% 0;
+	overflow:hidden;
+	height:165px;
+	margin-bottom:1em;
+}
+#footer .services ul{
+	width:20%;
+	float:left;
+	color:#666;
+	margin-top:5em;
+}
+#footer .services li{
+	margin-left:6em;
+}
+#footer .services a{
+	color:#666;
+	line-height:2em;
+}
+#footer .links{
+	color:#999;
+	margin-bottom:.5em;
+}
+#footer .copyright{
+	margin-bottom:1em;
+}
+#footer p{
+	line-height:2em;
+	text-align:center;
+	margin-bottom:.5em;
+}
+#footer a{
+	color:#333;
+}
+#footer a:hover{
+	text-decoration:underline;
+}
+
+.adbox{margin-bottom:20px;}
+
+.table_style {
+	width:343px;
+	float:left;
+	overflow:hidden;
+	border: 2px solid #C50000;
+}
+.table_style img {
+	width:313px;
+	height:278px;
+	border:#b6b6b6 1px solid
+}
+.table_style b {
+	font-size:20px;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	color:#ff3c00;
+	font-weight:600;
+	display:block;
+	text-align:center;
+	padding:20px 0;
+	border-bottom:1px dashed #999;
+}
+.table_style table {
+	margin: 10px 0;
+}
+.table_style td {
+	padding-left:10px;
+	padding-right:5px
+}
+.table_style td span {
+	color:#0f62a9
+}
+.table_style td strong {
+	color:#ff3c00
+}
+.y_div {
+	float:left;
+	overflow:hidden;
+	width:352px;
+	background:#eee url(../images/good_bg.png)/*tpa=http://www.9taohao.com/themes/games/images/good_bg.png*/ repeat-y 0 50%;
+	padding:10px;
+	height:253px;
+}
+.youbian {
+	width:350px;
+	height:115px;
+	background:url(../images/kefu_bg.gif)/*tpa=http://www.9taohao.com/themes/games/images/kefu_bg.gif*/ no-repeat 0 0;
+	margin-left:10px;
+	margin-top:5px;
+}
+.youbian div {
+	padding-left:20px;
+	padding-top:70px;
+}
+.bug {
+	padding-top:1px;
+	background:url(../images/bug.gif)/*tpa=http://www.9taohao.com/themes/images/bug.gif*/ no-repeat 0 0;
+	clear:both;
+}
+.mordy {
+	margin-left:10px
+}
+.mordy li {
+	margin-top:10px
+}
+.mordy li span {
+	font-size:20px;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	color:#ff3c00;
+	font-weight:600;
+	margin-right:40px
+}
+
+#cityarea{
+	margin-top:10px;
+	float:left;
+	position:relative;
+	z-index:2;
+}
+#city{
+	font-size:22px;
+	margin-bottom:5px;
+}
+#changecity{
+	background:url(../images/btn_city.png)/*tpa=http://www.9taohao.com/themes/games/images/btn_city.png*/ no-repeat 0 0;
+	width:65px;
+	height:18px;
+	border:1px solid #ccc;
+	display:inline-block;
+	cursor:pointer;
+	text-indent:5px;
+}
+#citylist{
+	display:none;
+	width:485px;
+	border:2px solid #ccc;
+	background:#fff;
+	padding:1px;
+	position:absolute;
+	left:0;
+	margin-top:-1px;
+}
+#citylist dl{
+	clear: both;
+	overflow:hidden;
+}
+#citylist dt{
+	background: none repeat scroll 0 0 #FFF8DF;
+    border-right: 1px dotted #CCCCCC;
+    text-align: center;
+    width: 98px;
+    line-height: 23px;
+    padding: 10px 0;
+    float: left;
+     border-bottom: 1px dotted #CCCCCC;
+}
+#citylist  dd{
+	background: none repeat scroll 0 0 #F0F0F0;
+    width: 385px;
+    border-bottom: 1px dotted #CCCCCC;
+    float: left;
+    line-height: 23px;
+    padding: 10px 0
+}
+    
+}
+.citylist_2 dl dd a{
+	color: #666666;
+    float: left;
+    text-align: center;
+    width: 48px;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+
+/*tiaoka*/
+.tabs_header {
+    /*border-bottom: 2px solid #C70000;*/
+    float: left;
+    height: 29px;
+    overflow: hidden;
+    padding-bottom: 1px;
+    width: 50%;
+}
+.tabs_header ul.tabs {
+    position: absolute;
+}
+.tabs_header ul.tabs li.first {
+    display: inline;
+    float: left;
+    margin: 0 1px 0 0;
+}
+.tabs_header ul.tabs li {
+    display: inline;
+    float: left;
+    margin: 0 1px 0 0;
+}
+.tabs_header ul.tabs li.active a {
+    background: url("../images/icon_arrow.png")/*tpa=http://www.9taohao.com/themes/games/images/icon_arrow.png*/ no-repeat scroll 7px 50% #C70000;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 30px;
+    padding: 0 0 0 30px;
+}
+.tabs_header ul.tabs li a {
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    padding: 0 0 0 10px;
+}
+.tabs_header ul.tabs li.active a span {
+    display: block;
+    line-height: 14px;
+    padding: 9px 10px 7px 0;
+}
+.tabs_header ul.tabs li a span {
+    display: block;
+    line-height: 14px;
+    padding: 9px 10px 7px 0;
+}
+.page2 {
+    background-color: #FFFBF0;
+    border-bottom: 2px solid #C70000;
+    border-left: 2px solid #C70000;
+    border-right: 2px solid #C70000;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 725px;
+	overflow:hidden;
+}
+.page2 .registItems {
+    border-bottom: 1px dashed #999999;
+    float: left;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+    width: 650px;
+}
+.page2 ul {
+    display: block;
+    float: left;
+    line-height: 24px;
+    padding: 2px 0;
+    width: 650px;
+}
+.blockt {
+    color: #000000;
+    font-size: 14px;
+    line-height: 150%;
+}
+.page2 .zfdg {
+    padding: 10px;
+    width: 630px;
+	background:#eee;
+	margin-top:10px;
+}
+.paget {
+    border: 1px solid #D6D6D6;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 650px;
+}
+.paget .registItems, .page1 .registItems {
+    border-bottom: 1px dashed #999999;
+    float: left;
+    padding-bottom: 2px;
+    width: 100%;
+}
+.paget ul li {
+    float: left;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.paget .tlabel, .page2 .tlabel {
+    color: #000000;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 10px;
+    text-align: right;
+    width: 90px;
+}
+.font14 {
+    color: #c90000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 140%;
+}
+.paget label {
+    color: #000000;
+    float: left;
+    font-weight: normal;
+    padding-right: 10px;
+    text-align: left;
+    width: 30%;
+}
+.paget .registItems, .page1 .registItems {
+    border-bottom: 1px dashed #999999;
+    float: left;
+    padding-bottom: 2px;
+    width: 650px;
+}
+.input_t{
+width:18px;line-height: 18px;margin:0;padding:0;vertical-align: middle;
+}
+.paget .cell, .page2 .cell {
+    color: #000000;
+    display: block;
+    float: left;
+    line-height: 18px;
+    margin: 1px 0;
+    width: 550px;
+}
+
+.modThree table th,
+.modThree table td{
+	padding:.5em 1em;
+	vertical-align:middle;
+}
+
+.gwcar .w968{_width:auto};
+.gwcar .flowh3{
+	border-bottom: 2px dotted #ccc;
+	padding-bottom:.5em;
+	margin-bottom:.5em;
+}
+.gwcar .modThree{background:none;}
+.gwcar .modThreeBox{background:none;border:none 0}
+.gwcar#theForm{
+	border:2px solid #B70000;
+	margin-bottom:20px;
+}
+
+#leavecomments input {
+	vertical-align:text-bottom;
+}
+#leavecommentsbutton {
+	background:url(../images/leavecommentsbutton.png)/*tpa=http://www.9taohao.com/themes/games/images/leavecommentsbutton.png*/ no-repeat;
+	width:107px;
+	height:25px;
+	border: none 0;
+	cursor:pointer;
+}

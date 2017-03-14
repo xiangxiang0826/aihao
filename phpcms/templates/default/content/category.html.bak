@@ -1,0 +1,335 @@
+{template "content","header"}
+<div id="right">
+<div class="box quick-search">
+<div class="inner">
+<div class="cnt">
+<div class="jqjs_s">
+    <form action="http://www.9taohao.com/category.php" method="GET">
+        <dl class="jqjs_s_dl">
+            <dt>1&nbsp;&nbsp; 2&nbsp;&nbsp; 3</dt>
+            <dd>4&nbsp;&nbsp; 5&nbsp;&nbsp; 6&nbsp;&nbsp; 7</dd>
+            <dd>8&nbsp;&nbsp; 9&nbsp;&nbsp; 10&nbsp;&nbsp;11</dd>
+        </dl>
+        <dl class="jqjs_s_dl">
+            <script language="javascript">
+                function tmp(a) {
+                    var b = a + 1;
+                    var num1 = document.getElementById('n' + a);
+                    var num2 = document.getElementById('n' + b);
+                    if (num1.value.length == 1) {
+                        num2.focus();
+                    }
+                }
+            </script>
+            <dt style="width:93px">
+                <input id=n1 name="n1" maxLength=1 size=1 value='1'
+                       onKeyUp="tmp(1)" />
+                <input id=n2 name="n2" maxLength=1 size=1 value=''
+                       onKeyUp="tmp(2)" />
+                <input id=n3 name="n3" maxLength=1 size=1 value=''
+                       onKeyUp="tmp(3)" />
+            </dt>
+            <dd>
+                <input id=n4 name="n4" maxLength=1 size=1 value=''
+                       onKeyUp="tmp(4)" />
+                <input id=n5 name="n5" maxLength=1 size=1 value=''
+                       onKeyUp="tmp(5)" />
+                <input id=n6 name="n6" maxLength=1 size=1 value=''
+                       onKeyUp="tmp(6)" />
+                <input id=n7 name="n7" maxLength=1 size=1 value=''
+                       onKeyUp="tmp(7)" />
+            </dd>
+            <dd>
+                <input id=n8 name="n8" maxLength=1 size=1 value=''
+                       onKeyUp="tmp(8)" />
+                <input id=n9 name="n9" maxLength=1 size=1 value=''
+                       onKeyUp="tmp(9)" />
+                <input id=n10 name="n10" maxLength=1 size=1 value=''
+                       onKeyUp="tmp(10)" />
+                <input id=n11 name="n11" maxLength=1 size=1 value=''
+                        />
+            </dd>
+            <input type="hidden" name="id" value="65" />
+            <!-- <input type="hidden" name="category" value="65" />
+            <input type="hidden" name="display" value="grid" id="display"
+            />
+            <input type="hidden" name="brand" value="0" />
+            <input type="hidden" name="price_min" value="0" />
+            <input type="hidden" name="price_max" value="0" />
+            <input type="hidden" name="filter_attr" value="0.0.0.0.1760596.0" />
+            <input type="hidden" name="page" value="1" />
+            <input type="hidden" name="sort" value="goods_id" />
+            <input type="hidden" name="order" value="DESC" />-->
+            <input type="hidden" name="search_hm" value="1" />
+        </dl>
+        <div class="jqjs_spos_dd">
+            <input type=image src="<?php echo IMG_PATH;?>s_soso.gif" />
+        </div>
+        <div class="jqjs_spos_dd3" style="display:none">
+            <a href="yidong.php" style=" color:#FF0000;">???????</a>
+        </div>
+    </form>
+    <div class="jqjs_spos_dd2">????????????????¦Ë????????????????</div>
+    <div class="shuzso" style="display:none">
+        <form action="http://www.9taohao.com/category.php" name="search_top2" method="get">
+            <input class="szso" type="text" name="mhss" />&nbsp;
+            <input name="mhws" type="checkbox" value="en" />&nbsp;¦Â??????&nbsp;&nbsp;
+            <input type=image src="<?php echo IMG_PATH;?>s_soso.gif" />
+            <input type="hidden" name="id" value="65" />
+        </form>
+    </div>
+</div>
+<div style="margin:10px;">
+
+    <p style="font-size:13px;maring-bottom:5px;line-height:35px;">
+        <b>&nbsp;&nbsp;?????&nbsp;??</b>
+        <a href="/category.php?id=65">???</a>
+        <a href="/category.php?id=5">??????</a>
+        <a href="/category.php?id=6">??????</a>
+        <a href="/category.php?id=7">???????</a>
+    </p>
+    <div class="screeBox" style="line-height:25px;margin-bottom:1px">
+        <strong>?????? :</strong>
+        <span>???</span>
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16197752.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">021</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=15539460.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">130</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=14938930.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">131</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16192240.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">132</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=13216177.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">133</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=15172286.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">134</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=15172128.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">135</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=15172159.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">136</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=13216272.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">137</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=15172104.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">138</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=15172100.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">139</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16176082.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">147</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=13216169.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">150</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16191557.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">151</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=13216164.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">152</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=14939788.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">153</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16415328.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">155</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=15705347.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">156</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16176446.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">157</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16176068.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">158</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=13216193.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">159</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16196144.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">170</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16423123.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">171</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16562458.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">173</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16414757.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">177</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16193173.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">178</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=14941426.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">180</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16196932.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">181</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=16176122.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">182</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=13216450.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">183</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=14939168.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">185</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=14939173.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">186</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=13216173.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">187</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=15419700.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">188</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=14939582.0.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">189</a>&nbsp;
+    </div>
+    <div class="screeBox" style="line-height:25px;margin-bottom:1px">
+        <strong>??????? :</strong>
+        <span>???</span>
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.14942797.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">0-100</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.13216223.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">100-500</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.13216170.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">500-1000</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.13216165.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">1000-2000</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.14939169.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">2000-5000</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.14938931.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">5000-10000</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.15419689.0.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">10000????</a>&nbsp;
+    </div>
+    <div class="screeBox" style="line-height:25px;margin-bottom:1px">
+        <strong>??????¦Ë :</strong>
+        <span>???</span>
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.13216264.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">9???</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.13216175.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">8???</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.14939753.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">7???</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.14939454.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">6???</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.13216204.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">5???</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.15710293.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">4???</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.13216212.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">3???</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.13216166.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">2???</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.13216183.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">1???</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.13216171.0.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">0???</a>&nbsp;
+    </div>
+    <div class="screeBox" style="line-height:25px;margin-bottom:1px">
+        <strong>????? :</strong>
+        <span>???</span>
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.15539422.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">999</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.15419709.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">888</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.15419729.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">777</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.15419697.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">666</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.15539350.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">555</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.16190135.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">444</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.15539386.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">333</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.15539344.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">222</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.15172132.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">111</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.15419692.1760596.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">000</a>&nbsp;
+    </div>
+    <div class="screeBox" style="line-height:25px;margin-bottom:1px">
+        <strong>??????? :</strong>
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.0.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">???</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939889.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">1??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939771.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">2??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939929.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">3??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939884.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">4??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939868.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">5??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939954.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">6??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939878.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">7??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939969.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">8??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939894.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">9??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939994.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">10??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14939330.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">11??</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.14940019.0&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">12??</a>&nbsp;
+    </div>
+    <div class="screeBox" style="line-height:25px;margin-bottom:1px">
+        <strong>??????? :</strong>
+        <span>???</span>
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.14941780&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">ABAB</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.14939455&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AABB</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.13216401&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">ABBA</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.15172133&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AAA</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.14938933&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">??????ABC</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.15539423&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AAAA</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.14939171&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">??????ABCD</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.15712162&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AABBCC</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.16190893&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AAABBB</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.16191283&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">ABABAB</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.16191277&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AABBCCDD</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.13216265&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AAAB</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.15419698&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">¦Â?????</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.15419716&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AAAAA</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.15419730&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AAAAAA</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.16190936&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">ABCDABCD</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.15703665&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">ABABCDCD</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.16176042&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AABBB</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.16605376&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AAAABBBB</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.13216167&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AAAAB</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.15705559&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">ABCABC</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.16190449&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AAABB</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.15705637&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">ABBABB</a>&nbsp;
+        <a href="category.php?id=65&amp;price_min=0&amp;price_max=0&amp;filter_attr=0.0.0.0.1760596.16198064&amp;n1=1&n2=&n3=&n4=&n5=&n6=&n7=&n8=&n9=&n10=&n11=&search_hm=1" class="shuaxuan">AAAABB</a>&nbsp;
+    </div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    <!--
+    /*???????? ???????? ??????????*/
+    function setTab(name, cursel, n) {
+        for (i = 1; i <= n; i++) {
+            var menu = document.getElementById(name + i);
+            var con = document.getElementById("con_" + name + "_" + i);
+            menu.className = i == cursel ? "hover" : "";
+            con.style.display = i == cursel ? "block" : "none";
+        }
+    }
+    //-->
+
+</script>
+<script language="javascript">
+    function ajaxregform(obj) {
+        var url = 'index.php?controller=ajax&action=checkregform';
+        data = 'account=' + obj.account.value + '&username=' + obj.username.value;
+        xhr.send(url, data, 'checkregform_callback');
+    }
+    function ShowAll(obj, id) {
+        var doc = document.getElementById(id);
+        doc.style.display = (obj.checked ? 'block' : 'none');
+        return false;
+    }
+</script>
+<div class="margin_div">
+    <div class="Tab6">
+        <div style="display:none;">
+            <div id="con_five_1"></div>
+            <div id="con_five_2"></div>
+            <div id="con_five_3"></div>
+            <div id="con_five_4"></div>
+            <div id="con_five_5"></div>
+            <div id="con_five_6"></div>
+            <div id="con_five_7"></div>
+        </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+
+<ul class="list_ul_m">
+    <form method="GET" class="sort list-header" name="listform">
+        ????????
+        <a href="javascript:;" onClick="javascript:display_mode('list')"><img src="<?php echo IMG_PATH;?>display_mode_list.gif" alt=""></a>
+        <a href="javascript:;" onClick="javascript:display_mode('grid')"><img src="<?php echo IMG_PATH;?>display_mode_grid_act.gif" alt=""></a>
+        <a href="javascript:;" onClick="javascript:display_mode('text')"><img src="<?php echo IMG_PATH;?>display_mode_text.gif" alt=""></a>&nbsp;&nbsp;
+        <a href="category.php?category=65&display=grid&brand=0&price_min=0&price_max=0&filter_attr=0.0.0.0.1760596.0&&page=1&sort=goods_id&order=ASC#goods_list"><img src="<?php echo IMG_PATH;?>goods_id_DESC.gif" alt="????????????"></a>
+        <a href="category.php?category=65&display=grid&brand=0&price_min=0&price_max=0&filter_attr=0.0.0.0.1760596.0&&page=1&sort=shop_price&order=ASC#goods_list"><img src="<?php echo IMG_PATH;?>shop_price_default.gif" alt="?????????"></a>
+        <a href="category.php?category=65&display=grid&brand=0&price_min=0&price_max=0&filter_attr=0.0.0.0.1760596.0&&page=1&sort=last_update&order=DESC#goods_list"><img src="<?php echo IMG_PATH;?>last_update_default.gif" alt="?????????????"></a>
+        <input type="hidden" name="category" value="65" />
+        <input type="hidden" name="display" value="grid" id="display" />
+        <input type="hidden" name="brand" value="0" />
+        <input type="hidden" name="price_min" value="0" />
+        <input type="hidden" name="price_max" value="0" />
+        <input type="hidden" name="filter_attr" value="0.0.0.0.1760596.0" />
+        <input type="hidden" name="page" value="1" />
+        <input type="hidden" name="sort" value="goods_id" />
+        <input type="hidden" name="order" value="DESC" />
+    </form>
+    <li class="nisb">
+        <table width="100%" class="list_table" cellpadding="0" cellspacing="0">
+            <tr align="center" bgcolor="#e5e5e5">
+                <td width="18%"height="28" >???????</td>
+                <td width="10%"align="center">????</td>
+                <td width="14%">????</td>
+                <td width="7%">????</td>
+                <td width="18%"height="28" >???????</td>
+                <td width="10%"align="center">????</td>
+                <td width="14%">????</td>
+                <td width="7%">????</td>
+            </tr>
+        </table>
+    </li>
+    <form name="compareForm" action="compare.php" method="post" onSubmit="return compareGoods(this);">
+
+
+    </form>
+</ul>
+<script type="text/javascript">
+    window.onload = function()
+    {
+        Compare.init();
+        fixpng();
+    }
+    var button_compare = '';
+    var exist = "??????????%s";
+    var count_limit = "?????????4????????§Ø??";
+    var goods_type_different = "\"%s\"??????????????????????§Ø??";
+    var compare_no_goods = "?????????¦Ê??????????????????????????? 2 ????";
+    var btn_buy = "????";
+    var is_cancel = "???";
+    var select_spe = "????????????";
+</script>
+
+<div style="clear:both;"></div>
+<div class="manu10">
+
+    <div class="pagebar">
+        <form name="selectPageForm" action="/category.php" method="get">
+            <div id="pager">
+                ??? <b>0</b>  ?????
+            </div>
+        </form>
+    </div>
+    <script type="Text/Javascript" language="JavaScript">
+        <!--
+        function selectPage(sel)
+        {
+            sel.form.submit();
+        }
+        //-->
+    </script>
+</div>
+</div>
+</div>
+{template "content","footer"}
+	
+
